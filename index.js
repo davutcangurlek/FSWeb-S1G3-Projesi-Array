@@ -82,9 +82,14 @@ Aşağıdakileri yapmak için cesitEkle işlevini kullanın:
 */
 
 
-function cesitEkle(/*kod buraya*/){
-  /*kod buraya*/
+function cesitEkle(meyve){
+  const tatlar=orijinalTatlar.unshift("kakule");
+console.log(tatlar)
+  return tatlar;
 }
+
+
+
 
 
 /* Cörev 4:
