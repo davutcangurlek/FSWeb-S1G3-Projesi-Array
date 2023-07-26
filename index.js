@@ -40,9 +40,12 @@ Aşağıdakileri yapmak için aşağıdaki kopyalama işlevini kullanın:
 */
 
 
-function kopyala(/*kod buraya*/){
-  /*kod buraya*/
+function kopyala(arr) {
+  const copyArray = [...arr];
+  return copyArray;
 }
+
+kopyala(orijinalTatlar);
 
 
 /* Görev 2:
